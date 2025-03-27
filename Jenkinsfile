@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'GithubCreds', url: 'https://github.com/your-username/your-java-webapp.git'
+                git credentialsId: 'GithubCreds', url: 'https://github.com/Nisarg153/demojava.git'
             }
         }
 
